@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.photo-container {
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.right-header {
+    display: flex;
+    /* margin-left: 400px; */
+}
+
+nav ul {
+    display: flex;
+}
+
+li {
+    margin-right: 50px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.mid-section {
+    margin-top: 138px;
+}
+
+.mid-section h1 {
+    font-size: 40px;
+    margin-left: 140px;
+}
+
+.upper-section {
+    margin-top: 100px;
+    /* margin-left: 140px; */
+}
+
+.upper-section img {
+    /* max-width: 1640px; */
+    width: 100%;
+}
+
+.upper-left {
+    margin-left: 140px;
+}
+
+.card {
+    max-width: 480px;
+    border: #d5d5d5 1px solid;
+    height: 520px;
+    margin-right: 95px;
+}
+
+.card img {
+    max-width: 480px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card h4 {
+    margin-bottom: 33px;
+}
+
+.card p {
+    margin-bottom: 73px;
+}
+
+.more-div {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 15px;
+}
+
+.lower-section .load-more {
+    display: none;
+}
+
+.mid-section h1 {
+    margin-bottom: 70px;
+}
+
+.section-text {
+    margin-left: 15px;
+}
+
+.load a {
+    font-size: 30px;
+    color: black;
+}
+
+.load {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+.lower-section h1 {
+    font-size: 40px;
+    margin-left: 140px;
+    margin-bottom: 70px;
+}
+
+.lower-left {
+     margin-left: 140px;
+}
+
+footer {
+    background-color: #2E2E2E;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+footer h4 {
+    font-size: 20px;
+    color: #F2F2F2;
+}
+
+footer p {
+    font-size: 13px;
+    color: #F2F2F2;
+}
+
+.footer-logos img {
+    width: 44px;
+    margin-right: 34px;
+}
